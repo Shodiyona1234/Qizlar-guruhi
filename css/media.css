@@ -1,0 +1,151 @@
+@media (max-width:465px) {
+    .burger{
+     display: flex;
+
+    }
+    ul{
+        display: none;
+    }
+    .header{
+     
+        justify-content: space-between;
+    }
+    .portfolio h1{
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 38px;
+        margin-top: 20px;
+    }
+    .left{
+       
+    }
+    .right{
+        display: none;
+    }
+    /* .left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
+    .main_h1{
+    font-weight: 500;
+    font-size: 25px;
+    }
+   .left{
+    align-items: center;
+   }
+   main h1{
+    text-align: center;
+   }
+   .main__btns{
+    align-items: center;
+   }
+  .portfolio__images{
+    width: 340px;
+    height: 227px;
+  }
+  .item{
+    flex-wrap: wrap;
+  }
+  .mask_last{
+    align-items: center;
+    justify-content: center;
+
+  }
+  .blog-1{
+    width: 155px;
+    height: 250px;
+  }
+  .blog-2{
+    width: 155px;
+    height: 250px;
+  }
+  .contact__text{
+    margin-bottom: 50px;
+    }
+    a{
+        display: none;
+    }
+
+}
+@media (max-width:700px){
+    .contact__text{
+        margin-bottom: 50px;
+        }
+    .right{
+        display: none;
+    }
+    .main_h1{
+        font-weight: 500;
+        font-size: 25px;
+        }
+       .left{
+        align-items: center;
+       }
+       main h1{
+        text-align: center;
+       }
+       .main__btns{
+        align-items: center;
+       }
+      .portfolio__images{
+        width: 340px;
+        height: 227px;
+      }
+      .item{
+        flex-wrap: wrap;
+      }
+      .burger{
+        display: flex;
+   
+       }
+       ul{
+           display: none;
+       }
+       .header{
+        
+           justify-content: space-between;
+       }
+       .portfolio h1{
+           font-weight: 500;
+           font-size: 26px;
+           line-height: 38px;
+           margin-top: 20px;
+       }
+       .left{
+           text-align: center;
+       }
+       .right{
+           display: none;
+
+}
+.blog-1{
+    width: 155px;
+    height: 250px;
+  }
+  .blog-2{
+    width: 155px;
+    height: 250px;
+  }
+}
+@media ( max-width:203px) {
+    .blog-1{
+        width: 150px;
+       height: 33px;
+      }
+      .blog-2{
+        width: 55px;
+        height: 150px;
+      }
+      .contact__text{
+        margin-bottom: 50px;
+        }
+        .blog-1{
+            width: 155px;
+            height: 250px;
+          }
+          .blog-2{
+            width: 155px;
+            height: 250px;
+          }
+}

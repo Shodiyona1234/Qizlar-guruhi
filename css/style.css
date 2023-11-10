@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Red Hat Display';
+}
+.wrapper{
+    width: 100%;
+}
+.container{
+    width: calc(80%-2px);
+    margin-right: 65px;
+     margin-left: 65px;
+    margin-top: 65px;
+  
+   
+}
+.small__container{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+ 
+   display: flex;
+   
+  
+   
+}
+.logos{
+    display: flex;
+    justify-content: space-between;
+}
+.burger{
+    margin-top: 10px;
+}
+.logos
+{
+    width: 50px;
+    display: flex;
+     /* justify-content: center; */
+    align-items: center; 
+}
+ul{
+    display: flex;
+    gap: 30px;
+    margin-left: 108px;
+    list-style: none;
+}
+.blog{
+    flex-wrap: wrap;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+
+}
+.main__btns{
+ display: flex;
+ flex-direction: column;
+ gap: 50px;
+}
+.main__btn{
+    background: #8643DC;
+border-radius: 100px;
+width: 200px;
+height: 60px;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+border: none;
+}
+.services{
+   margin-bottom: 150px;
+}
+.services__container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+}
+.items{
+    width: 80%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    /* gap: 21px; */
+    width: 350px;
+    flex-wrap: wrap;
+    align-items: space-evenly;
+}
+hr{
+    background: #8643DC;
+    width: 50px;
+    height: 2px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.burger{
+display: none;
+}
+.services__P{
+    font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+color: #8643DC;
+}
+h1{
+    width: 246px;
+    height: 96px;
+    font-weight: 700;
+font-size: 36px;
+line-height: 48px;
+
+color: #25202F;
+}
+.servicesp{
+        font-weight: 400;
+font-size: 16px;
+line-height: 32px;
+color: #47444E;
+}
+.portfolio{
+    width: 20%;
+}
+.portfolo__h3{
+    font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height */
+
+text-decoration-line: underline;
+
+color: #25202F;
+}
+.small__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio__container{
+    display: flex;
+    justify-content:center ;
+}
+.images{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: -30px;
+    /* gap: 30px; */
+}
+.portfolio__images{
+    width: 540px;
+    height: 427px;
+}
+
+.boxes{
+    margin-top: 44px;
+    display: flex;
+    gap: 50px;
+    justify-content: space-evenly;
+}
+.box{
+    position: relative;
+    width: 170px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.blog__images{
+    position: absolute;
+    z-index: 2;
+}
+.blog__img{
+    position: absolute;
+    z-index: 1;
+}
+.all__container{
+    position: absolute;
+    z-index: 3;
+    width: 197px;
+   margin-top: 250px;
+ 
+font-size: 20px;
+line-height: 26px;
+
+color: #FFFFFF;
+}
+.blog-1{
+    width: 255px;
+    height: 350px;
+}
+.contact__text{
+margin-bottom: 50px;
+}
+h2{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 52px;
+    width: 512px;
+    height: 156px
+}
+.contact{
+ margin-top: 100px;
+ margin-bottom: 150px;
+}
+.contact_text{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+input::placeholder{
+    font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+
+color: #A8A0B0;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+   
+}
+input{
+    border: none;
+    border-bottom: 1px solid black;
+    height: 88px;
+    ;
+}
+.contact_desc{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact_desc button{
+    width: 200px;
+    height: 60px;
+    background: #8643DC;
+border-radius: 100px;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+border: none    ;
+}
+.contact_desc div{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.footer h1{
+    font-weight: 500;
+font-size: 36px;
+line-height: 48px;
+/* identical to box height */
+
+text-align: center;
+
+color: #21232D;
+}
+.form{
+    margin-top: 50px;
+}

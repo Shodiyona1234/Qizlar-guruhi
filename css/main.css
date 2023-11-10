@@ -1,0 +1,463 @@
+@import "./font.css";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Red Hat Display";
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+}
+.wrapper {
+  /* width: calc(100%-2px);
+  min-height: 100vh; */
+  /* border: 1px solid red; */
+  /* background-image: url("../img/users.png"); */
+  /* background-size: 535px 622px;
+  background-repeat: no-repeat;
+  background-position: right 60px; */
+}
+.container {
+  /* width: calc(80%-2px);
+  /* border: 1px solid black; */
+  /* min-height: 100vh;
+  margin-top: 65px;
+  margin-left: 165px;
+  margin-right: 165px; */ 
+}
+
+/* ################################################HEADER START##################################################### */
+.dumaloq{
+  display: none;
+}
+
+/* ========================================HEADER END============================================== */
+
+/* ###########################################MAIN  START############################################# */
+.main {
+  /* image.png */
+  margin-top: 100px;
+  padding-bottom: 168px;
+}
+.main_tatle {
+  color: #3f3a4a;
+  font-size: 24px;
+}
+.main h1 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 120%;
+  margin-top: 25px;
+  color: #3b3b3b;
+}
+.main_disc {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  margin-top: 20px;
+  color: #25202f;
+}
+.main_btn {
+  width: 200px;
+  height: 60px;
+  background: #8643dc;
+  border-radius: 100px;
+  border: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  margin-top: 50px;
+  color: #ffffff;
+}
+
+/* =============================================MAIN END================================================== */
+
+/* #############################################SERVICES START################################################### */
+
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 100px 0px;
+  /* border: 1px solid red; */
+}
+.services_cards {
+  display: flex;
+}
+.services_title {
+  position: relative;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #8643dc;
+  cursor: pointer;
+}
+.services h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  margin-top: 15px;
+  color: #25202f;
+}
+.services_card {
+  width: 350px;
+}
+.services_cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  gap: 30px;
+}
+/* .services_card div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+} */
+
+
+/* ==========================================SERVICES END ======================================================= */
+
+/* ########################################PORTFOLIO START ########################################################## */
+.portfolio {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 50vh;
+  /* border: 1px solid red; */
+}
+.portfolio__img {
+  margin-left: 30px;
+}
+.project_title {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin-top: 15px;
+}
+.project_title h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #25202f;
+}
+.project_title h3 {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  text-decoration-line: underline;
+  color: #25202f;
+}
+.project_img {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.portfolio_arrow {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  cursor: pointer;
+}
+.portfolio p {
+  cursor: pointer;
+  position: relative;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #8643dc;
+}
+
+
+/* =========================================PORTFOLIO END=========================================================== */
+
+/* ###########################################CLIENTS START#################################################### */
+
+.clients {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid red;  */
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 44px;
+  /* height: 180px; */
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 170px;
+  height: 160px;
+  transition: all 0.2s ease-in-out;
+}
+
+.clients h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  margin-top: 15px;
+  color: #25202f;
+}
+
+.card_red {
+  background: #fff7fa;
+  border: 1px solid #ffe7f0;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 45px 28px rgba(255, 247, 250, 1);
+  -moz-box-shadow: 0px 0px 45px 28px rgba(255, 247, 250, 1);
+  box-shadow: 0px 0px 45px 28px rgba(255, 247, 250, 1);
+}
+.card_green {
+  background: #edfff5;
+  border: 1px solid #caffe1;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 45px 28px rgba(237, 255, 245, 1);
+  -moz-box-shadow: 0px 0px 45px 28px rgba(237, 255, 245, 1);
+  box-shadow: 0px 0px 45px 28px rgba(237, 255, 245, 1);
+}
+.card_blue {
+  background: #f5fcff;
+  border: 1px solid #ddf5ff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 45px 28px rgba(245, 252, 255, 1);
+  -moz-box-shadow: 0px 0px 45px 28px rgba(245, 252, 255, 1);
+  box-shadow: 0px 0px 45px 28px rgba(245, 252, 255, 1);
+}
+.card_orange {
+  background: #fffbf2;
+  border: 1px solid #ffeec9;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 45px 28px rgba(255, 251, 242, 1);
+  -moz-box-shadow: 0px 0px 45px 28px rgba(255, 251, 242, 1);
+  box-shadow: 0px 0px 45px 28px rgba(255, 251, 242, 1);
+}
+.card_white_green {
+  background: #f4ffed;
+  border: 1px solid #dbffc4;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 45px 28px rgba(244, 255, 237, 1);
+  -moz-box-shadow: 0px 0px 45px 28px rgba(244, 255, 237, 1);
+  box-shadow: 0px 0px 45px 28px rgba(244, 255, 237, 1);
+}
+.card:hover {
+  width: 170px;
+  height: 180px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+/* ==============================================CLIENTS END========================================================== */
+
+/* ##########################################TESTIMONIALS START######################################################### */
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 67px;
+}
+.mask_first {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mask_last {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 156px;
+  margin-top: 25px;
+}
+.tick_box {
+  width: 570px;
+  text-align: center;
+}
+.testimonials h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  margin-top: 15px;
+  color: #25202f;
+}
+.tick_box p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+  color: #636066;
+}
+.michail_john {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5 px;
+}
+.michail_name {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #000000;
+}
+.michail_job {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
+}
+.paginations {
+  width: 140px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 41px;
+}
+.pagination {
+  cursor: pointer;
+  width: 10px;
+  height: 10px;
+  left: 648px;
+  top: 3196px;
+  border: 1px solid #debad9;
+  border-radius: 50%;
+}
+.pagination_active {
+  background: #8643dc;
+}
+
+/* ============================================TESTIMONIALS END================================================ */
+
+/* ############################################## BLOG START#####################################################*/
+
+/* .blog {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 150px;
+  gap: 30px;
+}
+.blog_card_1 {
+  width: 165px;
+  display: flex;
+  flex-direction: column;
+}
+.blog_card_2 {
+  width: 350px;
+  height: 233px;
+}
+.blog_card_img {
+  width: 255px;
+  height: 350px;
+  z-index: 2;
+  border: 2px solid red;
+}
+.blog_card_img2 {
+
+}
+.blog_title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #8643dc;
+}
+.blog_card_p {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+}
+.blog_card_p2 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+}
+h5 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+h1 {
+  margin-top: 15px;
+}
+.blog_card_img_bg {
+  width: 255px;
+  height: 350px;
+  z-index: 3;
+  border: 1px solid red;
+} */
+/* .all {
+  z-index: 1;
+} */
+.blog {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 100px;
+  gap: 30px;
+}
+.blog_card-1 {
+  width: 165px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.blog_card-1 h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+
+  color: #25202f;
+}
+.blog_card_2 {
+  width: 350px;
+}
+.blog_title_first {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #7235c1;
+}
+
+/* ===============================================BLOG END======================================================== */
+
+/* ##############################################CONTACT START########################################################## */
+
+
+/* =============================================CONTACT END=================================================== */
+
+/* #############################################FOOTER START########################################## */
+
+.footer {
+  margin-bottom: 50px;
+}
+.footer h1 {
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 48px;
+  text-align: center;
+  color: #21232d;
+}
+.footer_images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+/* ==================================================FOOTER END=========================================== */
