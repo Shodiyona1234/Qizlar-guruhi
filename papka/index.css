@@ -1,0 +1,514 @@
+body{
+    font-family: 'Rubik';
+  }
+  
+  header{
+    background: #F6F6F9;
+    width: 100%;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .wrapper{
+    font-family: 'Rubik';
+  max-width: 100%;
+  }
+  .container{
+    padding: 50px 150px;
+    /* max-width: 1220px;
+    margin-top: 42px;
+    margin-left: 119px;
+    margin-right: 121px; */
+  }
+  hr{
+    width: 20px;
+    background-color: black;
+  }
+  .burger{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+   justify-content: center;
+   gap: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(205, 203, 203);
+  }
+  .header{
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+  }
+  .logo{
+    flex-wrap: wrap;
+    align-items: center ;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+  h1{
+    /* max-width: 100%; */
+  max-height: 40px;
+  left: 119px;
+  top: 44px;
+  
+  background: #FFFFFF;
+  box-shadow: 0px 2px 6px rgba(202, 202, 202, 0.25);
+  border-radius: 5px;
+  color: #295091;
+  }
+  .header__li{
+    font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  
+  color: #285193;
+  }
+ 
+  .header__ul{
+    flex-wrap: wrap;
+    list-style: none;
+    margin-left: 50px;
+    display: flex;
+    gap: 17px;
+  }
+  .header__li{
+    display: flex;
+  }
+  .header__btn{
+   
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+font-size: 12px;
+line-height: 19px;
+
+color: #FFFFFF;
+
+background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+border-radius: 5px;
+border: none;
+width: 97px;
+height: 30px;
+transition: all 0.5s ;
+  }
+  .header__btn:hover{
+   transform: scale(0.9, 1);
+  }
+
+  .texts{
+    /* display: flex;
+    gap: 50px; */
+    max-width: 100%;
+  min-height: 68px;
+left: 119px;
+top: 124px;
+justify-content: space-between;
+background: #FFFFFF;
+box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+border-radius: 5px;
+  }
+  .texts__ul{
+    max-width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 95% ;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .texts__li{
+    max-width: 90%;
+        margin-top: 25px;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 23px;
+        
+        color: #515151;
+  }
+  .header__images{
+    
+    width: 100%;
+  }
+  .header__images__img{
+    width: 100%;
+    height: 99px;
+  }
+  /* .header__images{
+    max-width: 100%;
+    height: 99px;
+  }
+  .header__images__img{
+    max-width: 100%;
+    min-width: 50px;
+  } */
+
+  /* ##################################MAIN START############################################# */
+  .news{
+    padding-top: 20px;
+  }
+  .logos__news{
+    font-family: 'Rubik';
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  
+    background: #F6F6F9;
+border-radius: 5px;
+width: 100%;
+height: 100px;
+  }
+  .news__items{
+    display: flex;
+
+    align-items: center;
+    border: none;
+    margin-top: 25px;
+  height: 50px;
+   border-right: 1px solid #F4CCD1;
+    width: 24%;
+  }
+  .news__img{
+    padding-right: 25px;
+  }
+  .a{
+    font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 24px;
+
+color: #000000;
+
+    border-right: 2px solid  #EB5569;;
+    
+  }
+  .text{
+    padding-right: 70px;
+  }
+  .d{
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+
+color: #000000;
+    border: none;
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+
+color: #000;
+  }
+  .b{
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+
+color: #DB0000;
+  }
+  .small{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    
+    color: #000;
+  }
+  .c{
+
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+
+color: #05B135;
+  }
+  .news__images{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+  }
+.images__img {
+
+ gap: 20px;
+ width: 32%;
+}
+.tiny{
+  font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 20px;
+
+color: #202020;
+
+
+color: #202020;
+
+}
+.images__img span{
+  font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #6B6D97;
+}
+.images__img img{
+  width: 100%;
+}
+
+.box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: rgba(239, 186, 84, 0.18);
+border-radius: 5px;
+width: 100%;
+min-height: 91px;
+}
+.box button{
+  background: linear-gradient(90deg, #FE5C28 0%, rgba(255, 139, 54, 0.9) 88.43%);
+border-radius: 5px;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+width: 241px;
+height: 42px;
+border: none;
+}
+.box span{
+  font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+}
+.box__span{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+.box__span img{
+  width: 30px;
+  height: 36px;
+}
+.news__left{
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  width: 80%;
+  gap: 25px;
+}
+.section__2{
+  display: flex;
+}
+.news__right{
+  padding-top: 20px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ 
+max-width: 100%;
+  width: 30;
+}
+.left__img{
+  display: flex;
+  
+}
+.your{
+  margin-left: 20px;
+  display: flex;
+flex-direction: column;
+justify-content: space-between;
+width: 100%;
+}
+.left__img {
+  font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 20px;
+
+color: #202020;
+}
+.news__left button{
+  
+  background: #295093;
+border-radius: 5px;
+width: 211px;
+height: 42px;
+color: #FFFFFF;
+border: none;
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 20px;
+
+color: #FFFFFF;
+
+}
+.left__btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right__1{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #F6F6F9;
+  border-radius: 5px;
+  max-width: 100%;
+  height: 542px;
+}
+.div{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+
+}
+ hr{
+  background: #E4E4E4;
+  border: none;
+  width: 100%;
+  height: 4px;
+}
+.right__2{
+  width: 100%;
+
+ 
+}
+.right__2 img{
+  width: 100%;
+  height: 477px;
+}
+.div span{
+  font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 20px;
+
+color: #202020;
+}
+h4{
+  font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: #202020;
+}
+.left__span{
+  font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 20px;
+width: 434px;
+height: 42px;
+color: #202020;
+}
+.spanleft{
+  font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+
+color: #434343;
+}
+.box__span span{
+  font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+}
+.date{
+  font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #7688A4;
+}
+.outfit{
+  font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+
+color: #7688A4;
+}
+/* ====================================MAIN END============================================== */
+
+
+/* ############################TELEFON START################################################# */
+.telefon{
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  background: #F6F6F9;
+border-radius: 5px;
+margin-top: 45px;
+width: 100%;
+min-height: 20vh;
+}
+.mobile{
+display: flex;
+align-items: center;
+}
+.my__container h5{
+  font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+
+color: #295093;
+}
+.my__container p{
+  font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+
+color: #333333;
+}
+.one img{
+  border: 1px solid red;
+
+}
+.one{
+  width:60% ;
+}
+.two{
+ width: 20%;
+}
+/* ============================TELEFON END==================================================== */
